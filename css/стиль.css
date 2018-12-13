@@ -1,0 +1,619 @@
+header,main, footer {
+    display: block;
+    
+
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#menu {
+    display: flex;
+    width: 78%;
+    margin: 2px auto;
+    padding: 15px;
+    text-align: center;
+    justify-content:flex-end;
+    background-color: #1D3A35;
+
+}
+
+    #menu a {
+        padding: 5px 25px;
+        text-decoration: none;
+        color: #fff;
+        font-family: Montserrat-Regular;
+        font-size: 18px;
+    }
+
+    #menu li {
+        display: inline;
+    }
+
+
+
+.img {
+    display: block;
+    margin: auto;
+    width: 1003px;
+    height:420px;
+}
+
+.img1 {
+    display: block;
+    margin: auto;
+    width: 1003px;
+    height: 420px;
+}
+
+.imgimgimg {
+    color: white;
+    border-radius: 2px;
+    position: relative;
+    left: 330px;
+    bottom: 170px;
+    font-size: 50px;
+    font-family: Amigos;
+}
+
+@font-face {
+    font-family: MontserratAlternates-Bold;
+    src: url(fonts/MontserratAlternates-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: Amigos;
+    src: url(fonts/Amigos.ttf);
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: MontserratAlternates-Bold;
+    margin: 25px;
+    text-decoration: underline;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+}
+.textt {
+    position: absolute;
+    top: 70px;
+    padding: 10px 170px 10px 170px;
+    text-align: center;
+}
+    .textt span {
+        color: white;
+        font: 24px/45px Montserrat-Regular;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+    }
+
+
+div input.knopka {
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #1D3A35;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px 380px ;
+}
+
+.flex-container div {
+        padding: 5px;
+}
+
+.nadp {
+    border-left: 1px solid grey;
+    
+}
+
+CONTRY, COMPANY, TELEPHONE, tIME, MAIL {
+    display: block;
+    margin: 10px;
+    margin-left:10px;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+
+
+.per  {
+    color: lightblue ;
+
+}
+
+/*ИТАЛИЯ/*/
+
+.italy {
+    color: white;
+    border-radius: 2px;
+    position: relative;
+    left: 740px;
+    bottom: 170px;
+    font-size: 65px;
+    font-family: Amigos;
+}
+
+.view {
+    text-align: center;
+    padding: 20px 160px 20px 150px;
+    font-family: Montserrat-Regular;
+    font-size: 25px;
+}
+
+
+.disk {
+    padding: 20px 140px 20px 140px;
+    font-family: Montserrat-Regular;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 10px 10px 7px;
+    width: 300px;
+    height: 450px;
+}
+
+.rightimg {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+    width :450px;
+    height:300px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px 140px;
+}
+
+.flex-container2 div {
+    padding: 10px;
+}
+
+.nadp3 {
+    font-family: Montserrat-Regular;
+    border-left: 2px solid grey;
+    font-size: 25px;
+}
+
+.more{
+    text-decoration:none;
+    color:black;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+    cursor:  pointer;
+}
+
+.imgimgimg2 {
+    color: white;
+    border-radius: 2px;
+    position: relative;
+    left: 700px;
+    bottom: 170px;
+    font-size: 50px;
+    font-family: Amigos;
+}
+
+.view1 {
+    text-align: center;
+    padding: 20px 160px 20px 150px;
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+}
+
+.view2 {
+    font-family: Montserrat-Regular;
+    font-size: 24px;
+}
+
+.flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding: 23px 160px 20px 260px;
+}
+
+.flex-container3 div {
+    padding: 10px;
+}
+
+.nadp1 {
+    font-family: Montserrat-Regular;
+    border-left: 1px solid grey;
+    font-size:22px;
+    
+}
+
+
+.nadp2 {
+    font-family: Montserrat-Regular;
+    font-size: 20px;
+    margin-right:20px;
+}
+
+.flex-container4 {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 15px 30px;
+    margin: 30px 170px;
+    border: dashed;
+}
+
+.flex-container4 div {
+    padding: 10px;
+}
+
+.nadp4 {
+    font-family: Montserrat-Regular;
+    border-left: 2px solid grey;
+    font-size: 18px;
+}
+
+.b{
+    text-decoration: underline;
+}
+
+.send{
+    color:white;
+    text-decoration:none;
+}
+
+.nadp5{
+    padding:5px 0px 20px 400px;
+}
+
+.moreee {
+    margin-left: 350px;
+    font-family: Montserrat-Regular;
+    font-size: 22px;
+}
+
+.name {
+    font-family: MontserratAlternates-Bold;
+    color: white;
+    font-size: 19px;
+    padding-right: 200px;
+}
+
+.box {
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.goose {
+    float: left;
+    margin: 7px 10px 10px 7px;
+}
+.hover-effect {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(5, 8, 31, 0.62);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.box:hover .hover-effect {
+    opacity: 1;
+}
+
+.box:hover .hover-text {
+    right: 0;
+}
+
+.hover-text {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    max-width: 70%;
+    padding: 10px 40px;
+    color: #e2e2e2;
+    text-decoration: none;
+    text-align: right;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Montserrat-Regula;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.card {
+    font-size: 1.8em;
+    font-weight: 200;
+    border-bottom: 2px solid #fff;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 23px 160px 20px 155px;
+}
+
+    .flex-container1 div {
+        margin-bottom: 12px;
+    }
+
+.knop {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: 138px;
+    margin-right: 1000px;
+    background-color: #1D3A35;
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat-Regular;
+}
+
+.russia {
+    color: white;
+    border-radius: 2px;
+    position: relative;
+    left: 760px;
+    bottom: 130px;
+    font-size: 65px;
+    font-family: Amigos;
+}
+
+.mapSurface {
+    width :400px; 
+    height:220px;
+}
+
+.img3 {
+    width :220px;
+    height:370px;
+}
+
+.map {
+    padding-top: 25px;
+    margin-left:150px;
+}
+
+@media screen and (max-width: 1024px) {
+    #menu {
+        display: flex;
+        width: 100%;
+        height: 50%;
+        margin: 2px auto;
+        text-align: center;
+        justify-content: flex-end;
+    }
+
+        #menu a {
+            padding: 5px 5px;
+            font-size: 10px;
+        }
+
+        #menu li {
+            display: inline;
+        }
+
+    .name {
+        font-size: 15px;
+        padding-right: 30px;
+    }
+
+    .img {
+        display: block;
+        margin: auto;
+        width: 360px;
+        height: 200px;
+    }
+
+    .img1 {
+        display: block;
+        margin: auto;
+        width: 660px;
+        height: 200px;
+    }
+
+    .imgimgimg {
+        position: relative;
+        left: 100px;
+        bottom: 100px;
+        font-size: 25px;
+        font-family: Amigos;
+    }
+
+    .imgimgimg2 {
+        position: relative;
+        left: 150px;
+        bottom: 70px;
+        font-size: 25px;
+        font-family: Amigos;
+    }
+
+    p {
+        font-size: 17px;
+        margin:5px;
+    }
+
+    .flex-container4 {
+        padding: 5px 5px;
+        margin: 20px;
+        border: dashed;
+    }
+
+        .flex-container4 div {
+            padding: 2px;
+        }
+
+    .nadp2 {
+        font-size: 8px;
+        margin-right: 10px;
+    }
+
+    .nadp4 {
+        border-left: 1px solid grey;
+        font-size: 8px;
+    }
+
+    .moreee {
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+        padding: 10px 20px;
+    }
+
+        .flex-container div {
+            padding: 5px;
+        }
+
+    .mapSurface {
+        width: 250px;
+        height: 220px;
+    }
+
+
+    .view1 {
+        text-align: center;
+        padding: 20px 20px 20px 10px;
+        font-family: Montserrat-Regular;
+        font-size: 15px;
+    }
+
+    .flex-container3 {
+        display: flex;
+        flex-flow: column;
+        padding: 23px 60px 20px 35px;
+    }
+
+        .flex-container3 div {
+            padding: 10px;
+        }
+
+    .nadp1 {
+        font-size: 15px;
+    }
+
+    .flex-container2 {
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 10px 40px;
+    }
+
+        .flex-container2 div {
+            padding: 5px;
+        }
+
+    .nadp3 {
+        font-size: 10px;
+    }
+
+    .img3 {
+        width: 120px;
+        height: 170px;
+    }
+
+    .nadp5 {
+        padding: 5px 0px 20px 50px;
+    }
+
+    .view {
+        padding: 20px 30px 20px 30px;
+        font-size: 16px;
+    }
+
+    .map {
+        margin-left: 15px; 
+    }
+
+    .map2{
+        width:280px;
+    }
+
+    .italyfh{
+        width:290px;
+        height:200px;
+    }
+
+    .disk {
+        padding: 15px 40px 20px 10px;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .img6 {
+        width: 200px;
+        height: 300px;
+    }
+
+    .leftimg {
+        width:110px;
+        height: 190px;
+    }
+
+    .rightimg {
+        width: 290px;
+        height: 160px;
+    }
+
+    .flex-container1 {
+        padding: 23px 20px 20px 2px;
+    }
+
+        .flex-container1 div {
+            margin-bottom: 5px;
+        }
+
+
+    .card {
+        font-size: 1.8em;
+        font-weight: 200;
+        border-bottom: 2px solid #fff;
+    }
+
+    .italy {
+        color: white;
+        border-radius: 2px;
+        position: relative;
+        left: 200px;
+        bottom: 70px;
+        font-size: 25px;
+    }
+
+    .russia {
+        position: relative;
+        left: 210px;
+        bottom: 50px;
+        font-size: 25px;
+    }
+
+    .knop {
+        margin-left: 50px;
+        margin-right:100px;
+        font-size: 15px;
+    }
+
+}
+
+
