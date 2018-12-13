@@ -37,7 +37,7 @@ body{
 .img {
     display: block;
     margin: auto;
-    width: 1053px;
+    width: 1073px;
     height:430px;
 }
 
@@ -391,7 +391,7 @@ a:hover {
 @media screen and (max-width: 1024px) {
     #menu {
         display: flex;
-        width: 95%;
+        width: 96%;
         height: 45%;
         margin: 2px auto;
         text-align: center;
@@ -547,12 +547,12 @@ a:hover {
     }
 
     .italyfh{
-        width:290px;
+        width:310px;
         height:200px;
     }
 
     .disk {
-        padding: 15px 30px 20px 10px;
+        padding: 15px 20px 20px 10px;
         font-size: 15px;
         text-align: justify;
     }
