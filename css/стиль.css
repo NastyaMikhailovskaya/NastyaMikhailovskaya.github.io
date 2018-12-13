@@ -137,7 +137,7 @@ CONTRY, COMPANY, TELEPHONE, tIME, MAIL {
 
 }
 
-/*ИТАЛИЯ/*/
+/*Г€Г’ГЂГ‹Г€Гџ/*/
 
 .italy {
     color: white;
@@ -172,8 +172,8 @@ CONTRY, COMPANY, TELEPHONE, tIME, MAIL {
 }
 
 .rightimg {
-    float: right; /* Выравнивание по правому краю  */
-    margin: 7px 7px 7px 7px; /* Отступы вокруг картинки */
+    float: right; /* Г‚Г»Г°Г ГўГ­ГЁГўГ Г­ГЁГҐ ГЇГ® ГЇГ°Г ГўГ®Г¬Гі ГЄГ°Г Гѕ  */
+    margin: 7px 7px 7px 7px; /* ГЋГІГ±ГІГіГЇГ» ГўГ®ГЄГ°ГіГЈ ГЄГ Г°ГІГЁГ­ГЄГЁ */
     width :450px;
     height:300px;
 }
@@ -548,7 +548,7 @@ a:hover {
     }
 
     .map2{
-        width:280px;
+        width:300px;
     }
 
     .italyfh{
