@@ -399,8 +399,8 @@ a:hover {
     }
 
         #menu a {
-            padding: 5px 0px;
-            font-size: 9px;
+            padding: 5px 2px;
+            font-size: 10px;
         }
 
         #menu li {
